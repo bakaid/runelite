@@ -89,6 +89,7 @@ dependencies {
         "windows-x86",
         "windows",
         "windows-arm64",
+        "freebsd",
     )) {
         runtimeOnly(variantOf(libs.lwjgl.core) { classifier("natives-$platform") })
         runtimeOnly(variantOf(libs.lwjgl.opengl) { classifier("natives-$platform") })
